@@ -2,18 +2,18 @@
 
 ---------Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value.
 
-string[] shinpilla = {"Bakkama", "Gundama", "Petharamma", "Sakkanamma"};
-Console.WriteLine(shinpilla[4]);                                                   //output : Sakkanamma
+string[] sajeev = {"s", "a", "j", "e"};
+Console.WriteLine(sajeev[1]);                                                   //output : a
 
-string[] shinpilla = {"Bakkama", "Gundama", "Petharamma", "Sakkanamma"};
-Shinpilla[4] = "Panthulamma"
-Console.WriteLine(shinpilla[4]);                                                   //output: Panthulamma        
+string[] sassy = {"EEE", "CSE", "MECH", "CIVIL"};
+Shinpilla[4] = "ECE"
+Console.WriteLine(shinpilla[4]);                                                   //output: ECE       
 
 
-string[] shinpilla = {"Bakkama", "Gundama", "Petharamma", "Sakkanamma"};
-for (int i = 0; i < shinpilla.Length; i++) 
+string[] kits = {"A", "N", "N", "A"};
+for (int i = 0; i < kits.Length; i++) 
 {
-  Console.WriteLine(shinpilla[i]);                                                //output:Bakkama Gundama Petharamma Sakkanamma
+  Console.WriteLine(kits[i]);                                                //output:A N N A
 }
 
 
@@ -21,17 +21,17 @@ for (int i = 0; i < shinpilla.Length; i++)
 -------------There is also a foreach loop, which is used exclusively to loop through elements in an array:
 
 
-string[] shinpilla = {"Bakkama", "Gundama", "Petharamma", "Sakkanamma"};
-foreach (string i in cars) 
+string[] ECE = {"Sajeev", "Sesu", "Krish"};
+foreach (string i in ECE) 
 {
-  Console.WriteLine(i);                                                           //output: Bakkama Gundama Petharamma Sakkanamma
+  Console.WriteLine(i);                                                           //output: Sajeev Sesu Krish
 }
 
 ---------Sorting(sorts an array alphabetically or in an ascending order:)
 
-string[] shinpilla = {"Bakkama", "Gundama", "Petharamma", "Sakkanamma"};        //output:  Bakkama Gundama Petharamma Sakkanamma
-Array.Sort(shinpilla);
-foreach (string i in cars) 
+string[] Gubul = {"Publicis", "Sapients", "Bangalore", "Salesforce"};        //output:  Publicis Sapients Bangalore Salesforce
+Array.Sort(Gubul);
+foreach (string i in Gubul) 
 {
   Console.WriteLine(i); 
   }
